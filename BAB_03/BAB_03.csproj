@@ -101,6 +101,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Themes\Default\Default.skin" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -110,7 +111,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Browsers\" />
+    <Folder Include="App_Code\" />
     <Folder Include="App_Data\" />
+    <Folder Include="App_GlobalResources\" />
+    <Folder Include="App_LocalResources\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
