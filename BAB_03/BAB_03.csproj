@@ -88,6 +88,11 @@
     <Compile Include="agent_management.aspx.designer.cs">
       <DependentUpon>agent_management.aspx</DependentUpon>
     </Compile>
+    <Compile Include="App_GlobalResources\BAB_03.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BAB_03.resx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -102,6 +107,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Themes\Default\Default.skin" />
+    <Content Include="App_Browsers\Default.browser" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -111,12 +117,18 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Browsers\" />
     <Folder Include="App_Code\" />
     <Folder Include="App_Data\" />
-    <Folder Include="App_GlobalResources\" />
-    <Folder Include="App_LocalResources\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\BAB_03.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>BAB_03.Designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\Default.aspx.resx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
