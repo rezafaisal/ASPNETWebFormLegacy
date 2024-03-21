@@ -69,6 +69,10 @@
   <ItemGroup>
     <Content Include="AgentManagement.aspx" />
     <Content Include="agent_management.aspx" />
+    <Content Include="App_Data\BAB_03.mdf" />
+    <Content Include="App_Data\BAB_03_log.ldf">
+      <DependentUpon>BAB_03.mdf</DependentUpon>
+    </Content>
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
@@ -88,6 +92,7 @@
     <Compile Include="agent_management.aspx.designer.cs">
       <DependentUpon>agent_management.aspx</DependentUpon>
     </Compile>
+    <Content Include="App_Code\Matematika.cs" />
     <Compile Include="App_GlobalResources\BAB_03.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -117,8 +122,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Code\" />
-    <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
