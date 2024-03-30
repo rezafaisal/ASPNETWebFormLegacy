@@ -67,12 +67,44 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="KalkulatorSederhana.aspx" />
+    <Content Include="LatihanButton.aspx" />
+    <Content Include="LatihanTextBox.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="KalkulatorSederhana.aspx.cs">
+      <DependentUpon>KalkulatorSederhana.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KalkulatorSederhana.aspx.designer.cs">
+      <DependentUpon>KalkulatorSederhana.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LatihanButton.aspx.cs">
+      <DependentUpon>LatihanButton.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LatihanButton.aspx.designer.cs">
+      <DependentUpon>LatihanButton.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LatihanTextBox.aspx.cs">
+      <DependentUpon>LatihanTextBox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LatihanTextBox.aspx.designer.cs">
+      <DependentUpon>LatihanTextBox.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
