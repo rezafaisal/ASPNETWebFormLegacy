@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/Default.aspx" title="Home"  description="Home">
+	  <siteMapNode url="" title="Data Master"  description="Data Master">
+		  <siteMapNode url="~/Fakultas.aspx" title="Fakultas"  description="Fakultas" />
+		  <siteMapNode url="~/ProgramStudi.aspx" title="Program Studi"  description="Program Studi" />
+	  </siteMapNode>
+	  <siteMapNode url="" title="Manajemen Kerjasama"  description="Manajemen Kerjasama">
+		  <siteMapNode url="~/Kerjasama.aspx" title="Kerjasama"  description="Kerjasama" />
+		  <siteMapNode url="~/Laporan.aspx" title="Laporan"  description="Laporan" />
+	  </siteMapNode>
+  </siteMapNode>
+</siteMap>

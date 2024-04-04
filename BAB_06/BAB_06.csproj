@@ -67,12 +67,52 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="Fakultas.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Kerjasama.aspx" />
+    <Content Include="Laporan.aspx" />
+    <Content Include="ProgramStudi.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Fakultas.aspx.cs">
+      <DependentUpon>Fakultas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fakultas.aspx.designer.cs">
+      <DependentUpon>Fakultas.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Kerjasama.aspx.cs">
+      <DependentUpon>Kerjasama.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Kerjasama.aspx.designer.cs">
+      <DependentUpon>Kerjasama.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan.aspx.cs">
+      <DependentUpon>Laporan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Laporan.aspx.designer.cs">
+      <DependentUpon>Laporan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramStudi.aspx.cs">
+      <DependentUpon>ProgramStudi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProgramStudi.aspx.designer.cs">
+      <DependentUpon>ProgramStudi.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -84,6 +124,7 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="Web.sitemap" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
