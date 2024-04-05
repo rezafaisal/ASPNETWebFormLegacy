@@ -72,6 +72,7 @@
     <Content Include="Global.asax" />
     <Content Include="Kerjasama.aspx" />
     <Content Include="Laporan.aspx" />
+    <Content Include="LatihanTreeView.aspx" />
     <Content Include="ProgramStudi.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -106,6 +107,13 @@
     </Compile>
     <Compile Include="Laporan.aspx.designer.cs">
       <DependentUpon>Laporan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LatihanTreeView.aspx.cs">
+      <DependentUpon>LatihanTreeView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LatihanTreeView.aspx.designer.cs">
+      <DependentUpon>LatihanTreeView.aspx</DependentUpon>
     </Compile>
     <Compile Include="ProgramStudi.aspx.cs">
       <DependentUpon>ProgramStudi.aspx</DependentUpon>
